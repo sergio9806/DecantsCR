@@ -1,0 +1,48 @@
+
+.container__B{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen__a{
+  box-shadow: inset 50px 100px 100px 100px  rgb(0, 0, 0);
+
+}
+.banner__img{
+  width: 100%;
+  max-width: 1500px;
+  position: relative;
+  z-index: -2;
+  
+  
+}
+.banner__text{
+    position: absolute;
+    color: aliceblue;
+    top: 33%;
+    left: 30%;
+    z-index: -1;
+    font-family: var(--Anton);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    font-style: oblique;
+}
+.btn__About{
+  position: absolute;
+  z-index: 0;
+  background-color: black;
+  top: 87%;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+.btn__About:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  box-shadow: 0 0 10px white,
+   0 0 10px 5px blue,
+  0 0 10px 5px salmon;
+}

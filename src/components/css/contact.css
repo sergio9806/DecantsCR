@@ -1,0 +1,22 @@
+
+.section__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Bgdprimary-color);
+}
+.contact__img{
+    width: 90vw;
+    height: 80vh;
+}
+.footer__sect h1{
+    background-color: var(--Bgdprimary-color);
+    color: var(--Pprimary-color);
+    font-family: var(--Anton);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    font-style: oblique;
+}

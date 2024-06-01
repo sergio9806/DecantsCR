@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --Stgprimary-color: hsl(32, 91%, 47%);
+    --Pprimary-color: hsl(30, 11%, 86%);
+    --Bgdprimary-color : hsl(0, 0%, 0%);
+    --Anton: "Anton", sans-serif;
+    
+}
+
+strong{
+    color: var(--Stgprimary-color);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: justify;
+    color: var(--Pprimary-color);
+}

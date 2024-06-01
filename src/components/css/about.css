@@ -1,0 +1,42 @@
+/* Contenedor principal */
+.container__about {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: var(--Bgdprimary-color);
+}
+
+/* Ajustes de las imágenes */
+.about__img1, .about__img2 {
+    width: 270px;
+    height: 400px;
+    
+    
+}
+
+/* Posicionamiento de los elementos */
+.item1 {
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 15%;
+    grid-column: span 2;
+}
+
+.item2 {
+    margin-top: 40%;
+}
+
+.item3 {
+    margin-top: 60%;
+}
+
+/* Estilos adicionales */
+.about__span {
+    color: var(--Pprimary-color);
+    text-decoration: underline;
+}
+
+.about__span:hover {
+    cursor: pointer;
+}

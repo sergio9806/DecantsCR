@@ -1,0 +1,55 @@
+:root{
+    --primary-color: hsl(204, 4%, 25%);
+}
+.nav__container{
+ position: fixed;
+ z-index: 100;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+align-items: center;
+}
+.logo__nav{
+   width: 100px;
+   height: 100px;
+}
+.section__nav{
+ display:flex;
+}
+.section__nav a{
+ color: aliceblue;
+ margin: 40px;
+ font-size: 20px;
+}
+.opcion__nav:hover{
+cursor: pointer;
+text-shadow: 0 0 15px white,
+0 0 15px blue,
+0 0 15px salmon;
+;
+}
+.section__flag{
+    display: flex;
+}
+.section__flag div{
+    margin: 15px;
+    
+}
+.linea1{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color:  blue ;
+}
+.linea2{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(255, 0, 0) ;
+}
+.linea3{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color:  blue ;
+}
